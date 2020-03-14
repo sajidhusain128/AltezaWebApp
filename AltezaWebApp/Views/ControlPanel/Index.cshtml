@@ -1,0 +1,202 @@
+﻿@model AltezaWebApp.Models.LoginModel
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="~/content/css/bootstrap.min.css" rel="stylesheet" media=all />
+    <link href="~/content/css/form.css" rel="stylesheet" media=all />
+    <link href="~/content/css/style.css" rel="stylesheet" media=all />
+    <link href="~/content/css/font-css.css" rel="stylesheet" media=all />
+    <link href="~/content/css/fa.css" rel="stylesheet" media=all />
+    <link href="~/content/css/heading-title.css" rel="stylesheet" media=all />
+    <link href="~/content/css/caldera-grid.css" rel="stylesheet" media=all />
+    <title>Index</title>
+    <style>
+        .width-600 {
+            width: 600px;
+        }
+
+        .validation-summary-errors {
+            text-align: center;
+            display: block;
+            width: 100%;
+            font-size: 16px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div data-elementor-type=wp-post data-elementor-id=15 class="elementor elementor-15" data-elementor-settings=[]>
+        <div class=elementor-inner>
+            <div class=elementor-section-wrap>
+                <section class="elementor-element elementor-element-595cd1f elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="595cd1f" data-element_type="section">
+                    <div class="elementor-container elementor-column-gap-default width-600">
+                        <div class="elementor-row">
+                            <div class="elementor-element elementor-element-d878048 elementor-column elementor-col-100 elementor-top-column" data-id="d878048" data-element_type="column">
+                                <div class="elementor-column-wrap  elementor-element-populated">
+                                    <div class="elementor-widget-wrap">
+                                        <div class="elementor-element elementor-element-df6d8eb elementor-widget elementor-widget-spacer" data-id="df6d8eb" data-element_type="widget" data-widget_type="spacer.default">
+                                            <div class="elementor-widget-container">
+                                                <div class="elementor-spacer">
+                                                    <div class="elementor-spacer-inner"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="elementor-element elementor-element-ef7a37f elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id=ef7a37f data-element_type=section id=contact>
+                    <div class="elementor-container elementor-column-gap-default width-600">
+                        <div class=elementor-row>
+                            <div class="elementor-element elementor-element-7d1aadf elementor-column elementor-col-100 elementor-top-column" data-id=7d1aadf data-element_type=column>
+                                <div class="elementor-column-wrap  elementor-element-populated">
+                                    <div class=elementor-widget-wrap>
+                                        <div class="elementor-element elementor-element-2ef4eb7 elementor-widget elementor-widget-heading" data-id=2ef4eb7 data-element_type=widget data-widget_type=heading.default>
+                                            <div class=elementor-widget-container>
+                                                <h2 class="elementor-heading-title elementor-size-default upper-text">Login</h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="elementor-element elementor-element-ef7a37f elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id=ef7a37f data-element_type=section id=contact>
+                    <div class="elementor-container elementor-column-gap-default width-600">
+                        <div class=elementor-row>
+                            <div class="elementor-element elementor-element-7d1aadf elementor-column elementor-col-100 elementor-top-column" data-id=7d1aadf data-element_type=column>
+                                <div class="elementor-column-wrap  elementor-element-populated">
+                                    <div class=elementor-widget-wrap>
+                                        <div class="elementor-element elementor-element-2ef4eb7 elementor-widget elementor-widget-heading" data-id=2ef4eb7 data-element_type=widget data-widget_type=heading.default>
+                                            <div class=elementor-widget-container>
+                                                <h2 class="elementor-heading-title elementor-size-default"></h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="elementor-element elementor-element-824fa95 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id=824fa95 data-element_type=section>
+                    <div class="elementor-container elementor-column-gap-default width-600">
+                        <div class=elementor-row>
+                            <div class="elementor-element elementor-element-effef83 elementor-column elementor-col-100 elementor-top-column" data-id=effef83 data-element_type=column>
+                                <div class="elementor-column-wrap  elementor-element-populated">
+                                    <div class=elementor-widget-wrap>
+                                        <div class="elementor-element elementor-element-8268bdd eael-caldera-form-align-default eael-caldera-form-btn-align-default elementor-widget elementor-widget-eael-caldera-form" data-id=8268bdd data-element_type=widget data-widget_type=eael-caldera-form.default>
+                                            <div class=elementor-widget-container>
+                                                <div class=eael-caldera-form-container>
+                                                    <div class=caldera-grid id=caldera_form_1 data-cf-ver=1.8.9 data-cf-form-id=CF5dfc8db22e390>
+                                                        <div id=caldera_notices_1 data-spinner=https://www.infozium.com/wp-admin/images/spinner.gif></div>
+
+
+                                                        <form class="contact100-form validate-form" asp-controller="ControlPanel" asp-action="Index" method="post" asp-route-returnUrl="@ViewData["ReturnUrl"]">
+                                                            <span class="contact100-form-title">
+
+                                                            </span>
+                                                            <div asp-validation-summary="ModelOnly" class="text-danger">
+
+                                                            </div>
+                                                            <div class="wrap-input100 validate-input" data-validate="UserName is required">
+                                                                <!--<span class="label-input100">Your Name</span>-->
+                                                                <input class="input100" type="text" id="txtUsername" name="username" placeholder="Username" asp-for="Username">
+                                                                <label class="label-input100-new" for="name">
+                                                                    <span class="fas fa-user"></span>
+                                                                </label>
+                                                                <span class="focus-input100"></span>
+                                                            </div>
+
+                                                            <div class="wrap-input100 validate-input" data-validate="Valid email is required: ex@abc.xyz">
+                                                                <!--<span class="label-input100">Email</span>-->
+                                                                <input class="input100" type="password" id="txtPassword" name="password" placeholder="Password" asp-for="Password">
+                                                                <label class="label-input100-new" for="name">
+                                                                    <span class="fas fa-envelope"></span>
+                                                                </label>
+                                                                <span class="focus-input100"></span>
+                                                            </div>
+
+                                                            <div class="wrap-input100">
+
+                                                                    <input class="check-box" asp-for="RememberMe" /> @*@Html.DisplayNameFor(model => model.RememberMe)*@
+                                                                    <label class="check-box" for="RememberMe"></label>
+                                                                    <label class="lbl" for="RememberMe">Remember Me</label>
+                                                                @*@Html.DisplayFor(x => x.RememberMe,new { @class = "lbl"})*@
+                                                          
+                                                                @*<label class="label-input100-new" for="name">
+                                                                        <span class="fas fa-envelope"></span>
+                                                                    </label>*@
+                                                                <span class="focus-input100"></span>
+                                                            </div>
+
+                                                            <div class="container-contact100-form-btn">
+                                                                <button class="contact100-form-btn" type="submit">
+                                                                    <span>
+                                                                        Login
+                                                                        <i class="fa fa-sign-in m-l-7" aria-hidden="true"></i>
+                                                                    </span>
+                                                                </button>
+                                                            </div>
+                                                        </form>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+
+            </div>
+        </div>
+    </div>
+    <script src="~/content/js/jquery-3.2.1.min.js"></script>
+    <script src="~/content/js/bootstrap.min.js"></script>
+    <script src="~/content/js/validate.js"></script>
+    <script>
+        function validateClientLogin() {
+            debugger;
+            var inputUserName = $('#txtUsername');
+            var inputPassword = $('#txtPassword');
+
+            if (!validateClient(inputUserName)) {
+                return false;
+            }
+            if (!validateClient(inputUserName)) {
+                return false;
+            }
+            return true;
+        }
+
+        function validateClient(input) {
+            if ($(input).attr('type') == 'email' || $(input).attr('name') == 'email') {
+                if ($(input).val().trim().match(/^([a-zA-Z0-9_\-\.]+)((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{1,5}|[0-9]{1,3})(\]?)$/) == null) {
+                    return false;
+                }
+            }
+            else {
+                if ($(input).val().trim() == '') {
+                    showValidate(input);
+                    return false;
+                }
+            }
+            return true;
+        }
+    </script>
+</body>
+</html>

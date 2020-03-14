@@ -1,0 +1,42 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <style>
+        .Error-Container
+        {
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display:block;
+            text-align:center;
+        }
+        .btn-click {
+            display: inline-block;
+            padding: 10px 25px;
+            background-color: #049797;
+            color: #fff;
+            border-radius: 25px;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-weight: bold;
+            box-shadow: 0px 1px 2px 2px #0497973d;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="Error-Container">
+        <img src="~/content/images/Oops1.png" height="300" />
+        <h1>@ViewBag.ErrorCode - @ViewBag.ErrorTitle</h1>
+
+        <p>@ViewBag.ErrorMsg</p>
+        <a href="/ControlPanel/Login" class="btn-click">Go to Login Page</a>
+    </div>
+</body>
+</html>

@@ -1,0 +1,458 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Alteza_WebApp</title>
+
+    <environment include="Development">
+        <link href="~/content/css/bootstrap.min.css" rel="stylesheet" media=all />
+        <link href="~/content/css/form.css" rel="stylesheet" media=all />
+        <link href="~/content/css/style.css" rel="stylesheet" media=all />
+        <link href="~/content/css/font-css.css" rel="stylesheet" media=all />
+        <link href="~/content/css/fa.css" rel="stylesheet" media=all />
+        <link href="~/content/css/heading-title.css" rel="stylesheet" media=all />
+        <link href="~/content/css/caldera-grid.css" rel="stylesheet" media=all />
+    </environment>
+    <environment exclude="Development">
+        @*<link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.7/css/bootstrap.min.css"
+            asp-fallback-href="~/lib/bootstrap/dist/css/bootstrap.min.css"
+            asp-fallback-test-class="sr-only" asp-fallback-test-property="position" asp-fallback-test-value="absolute" />*@
+        <link href="~/content/css/bootstrap.min.css" rel="stylesheet" media=all />
+        <link href="~/content/css/form.css" rel="stylesheet" media=all />
+        <link href="~/content/css/style.css" rel="stylesheet" media=all />
+        <link href="~/content/css/font-css.css" rel="stylesheet" media=all />
+        <link href="~/content/css/fa.css" rel="stylesheet" media=all />
+        <link href="~/content/css/heading-title.css" rel="stylesheet" media=all />
+        <link href="~/content/css/caldera-grid.css" rel="stylesheet" media=all />
+    </environment>
+</head>
+<body>
+    <div data-elementor-type=header data-elementor-id=8 class="elementor elementor-8 elementor-location-header" data-elementor-settings=[]>
+        <div class=elementor-inner>
+            <div class=elementor-section-wrap>
+                <header class="elementor-element elementor-element-38908824 elementor-section-content-middle elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id=38908824 data-element_type=section data-settings={&quot;background_background&quot;:&quot;classic&quot;,&quot;sticky&quot;:&quot;top&quot;,&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;sticky_on&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;],&quot;sticky_offset&quot;:0,&quot;sticky_effects_offset&quot;:0}>
+                    <div class="elementor-container elementor-column-gap-no">
+                        <div class=elementor-row>
+                            <div class="elementor-element elementor-element-4d512fe3 elementor-column elementor-col-33 elementor-top-column" data-id=4d512fe3 data-element_type=column>
+                                <div class="elementor-column-wrap  elementor-element-populated">
+                                    <div class=elementor-widget-wrap>
+                                        <div class="" data-id=7960d1d8>
+                                            <div class=elementor-widget-container>
+                                                <div class=elementor-image> <a data-elementor-open-lightbox href="/"> <img width=186 height=57 src=~/content/images/alteza_logo_2.png class="attachment-full size-full lazy" alt="Alteza Teleservice">		</a></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="elementor-element elementor-element-67da6d6d elementor-column elementor-col-33 elementor-top-column" data-id=67da6d6d data-element_type=column>
+                                <div class="elementor-column-wrap  elementor-element-populated">
+                                    <div class=elementor-widget-wrap>
+                                        <div class="elementor-element elementor-element-4da9f97e elementor-nav-menu__align-center elementor-nav-menu--dropdown-mobile elementor-nav-menu--stretch elementor-nav-menu__text-align-center elementor-nav-menu--indicator-classic elementor-nav-menu--toggle elementor-nav-menu--burger elementor-widget elementor-widget-nav-menu" data-id=4da9f97e data-element_type=widget data-settings={&quot;full_width&quot;:&quot;stretch&quot;,&quot;layout&quot;:&quot;horizontal&quot;,&quot;toggle&quot;:&quot;burger&quot;} data-widget_type=nav-menu.default>
+                                            <div class=elementor-widget-container>
+                                                <nav class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-horizontal e--pointer-underline e--animation-grow">
+                                                    <ul id=menu-1-4da9f97e class=elementor-nav-menu>
+                                                        <li class=""><a href="/ControlPanel/Dashboard" class=elementor-item>Dashboard</a></li>
+                                                        <li class=""><a href=AboutUs class=elementor-item>AboutUs</a></li>
+                                                        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1885">
+                                                            <a href="our-services" class="elementor-item elementor-item-anchor">Our Services</a>
+                                                            <ul class="sub-menu elementor-nav-menu--dropdown">
+                                                                <li class=""><a href=Email-Campaign-Management-n-Production class=elementor-sub-item>Email Campaign Management & Production</a></li>
+                                                                <li class=""><a href=Search-Marketing-n-Analytics class=elementor-sub-item>Search Marketing (SEO/PPC) & Analytics</a></li>
+                                                                <li class=""><a href=Content-n-Social-Media-Marketing class=elementor-sub-item>Content & Social Media Marketing</a></li>
+                                                                <li class=""><a href=Websites-Development class=elementor-sub-item>Websites</a></li>
+                                                                <li class=""><a href=Mobile-n-Web-Apps class=elementor-sub-item>Mobile & Web Apps</a></li>
+                                                                <li class=""><a href=Software-Solutions class=elementor-sub-item>Software</a></li>
+                                                                <li class=""><a href=Perks-n-Benifits class=elementor-sub-item>perks & Benifits</a></li>
+                                                                <li class=""><a href=Rewards-n-Recognitions class=elementor-sub-item>Rewards & Recognitions</a></li>
+                                                                <li class=""><a href=Training-n-Career-Devlopment class=elementor-sub-item>Training & Career Devlopment</a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li class=""><a href=Career class=elementor-item>Career</a></li>
+                                                        <li class=""><a href=ContactUs class=elementor-item>Contact Us</a></li>
+                                                        <li class=""><a  class=elementor-item asp-action="logout" asp-controller="ControlPanel">Logout</a></li>
+                                                    </ul>
+                                                </nav>
+                                                <div class=elementor-menu-toggle> <i class=fa aria-hidden=true></i> <span class=elementor-screen-only>Menu</span></div>
+                                                <nav class="elementor-nav-menu--dropdown elementor-nav-menu__container">
+                                                    <ul id=menu-2-4da9f97e class=elementor-nav-menu>
+                                                        <li class=""><a href="/" class=elementor-item>Home</a></li>
+                                                        <li class=""><a href=AboutUs class=elementor-item>AboutUs</a></li>
+                                                        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1885">
+                                                            <a href="our-services" class="elementor-item elementor-item-anchor">Our Services</a>
+                                                            <ul class="sub-menu elementor-nav-menu--dropdown">
+                                                                <li class=""><a href=Email-Campaign-Management-n-Production class=elementor-sub-item>Email Campaign Management & Production</a></li>
+                                                                <li class=""><a href=Search-Marketing-n-Analytics class=elementor-sub-item>Search Marketing (SEO/PPC) & Analytics</a></li>
+                                                                <li class=""><a href=Content-n-Social-Media-Marketing class=elementor-sub-item>Content & Social Media Marketing</a></li>
+                                                                <li class=""><a href=Websites-Development class=elementor-sub-item>Websites</a></li>
+                                                                <li class=""><a href=Mobile-n-Web-Apps class=elementor-sub-item>Mobile & Web Apps</a></li>
+                                                                <li class=""><a href=Software-Solutions class=elementor-sub-item>Software</a></li>
+                                                                <li class=""><a href=Perks-n-Benifits class=elementor-sub-item>perks & Benifits</a></li>
+                                                                <li class=""><a href=Rewards-n-Recognitions class=elementor-sub-item>Rewards & Recognitions</a></li>
+                                                                <li class=""><a href=Training-n-Career-Devlopment class=elementor-sub-item>Training & Career Devlopment</a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li class=""><a href=Career class=elementor-item>Career</a></li>
+                                                        <li class=""><a href=ContactUs class=elementor-item>Contact Us</a></li>
+                                                        <li class=""><a href=Logout class=elementor-item>Logout</a></li>
+                                                    </ul>
+                                                </nav>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+                <section class="elementor-element elementor-element-acb8430 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id=acb8430 data-element_type=section>
+                    <div class="elementor-container elementor-column-gap-default">
+                        <div class=elementor-row>
+                            <div class="elementor-element elementor-element-e5aa0b1 elementor-column elementor-col-100 elementor-top-column" data-id=e5aa0b1 data-element_type=column>
+                                <div class=elementor-column-wrap>
+                                    <div class=elementor-widget-wrap></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="modelFileAlert" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn" data-dismiss="modal">OK</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    @RenderBody()
+    <div data-elementor-type=footer data-elementor-id=86 class="elementor elementor-86 elementor-location-footer" data-elementor-settings=[]>
+        <div class=elementor-inner>
+            <div class=elementor-section-wrap>
+                
+                <section class="elementor-element elementor-element-17831eb6 elementor-section-height-min-height elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-items-middle elementor-section elementor-top-section" data-id=17831eb6 data-element_type=section data-settings={&quot;background_background&quot;:&quot;classic&quot;}>
+                    <div class="elementor-container elementor-column-gap-default">
+                        <div class=elementor-row>
+                            <div class="elementor-element elementor-element-ad131e7 elementor-column elementor-col-50 elementor-top-column" data-id=ad131e7 data-element_type=column>
+                                <div class="elementor-column-wrap  elementor-element-populated">
+                                    <div class=elementor-widget-wrap>
+                                        <div class="elementor-element elementor-element-535b179 elementor-widget elementor-widget-text-editor" data-id=535b179 data-element_type=widget data-widget_type=text-editor.default>
+                                            <div class=elementor-widget-container>
+                                                <div class="elementor-text-editor elementor-clearfix"><b>Copyright 2019 © All rights Reserved. Alteza Teleservice </b></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="elementor-element elementor-element-7e62a1c1 elementor-column elementor-col-50 elementor-top-column" data-id=7e62a1c1 data-element_type=column>
+                                <div class="elementor-column-wrap  elementor-element-populated">
+                                    <div class=elementor-widget-wrap>
+                                        <div class="elementor-element elementor-element-7ecb5de1 elementor-widget elementor-widget-heading" data-id=7ecb5de1 data-element_type=widget data-widget_type=heading.default>
+                                            <div class=elementor-widget-container>
+                                                <h3 class="elementor-heading-title elementor-size-default"></h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <environment include="Development">
+        <script src="~/content/js/jquery-3.2.1.min.js"></script>
+        <script src="~/content/js/bootstrap.min.js"></script>
+        <script src="~/wp-content/cache/minify/705e0.js"></script>
+        <script src="~/wp-content/cache/minify/9d830.js"></script>
+        <script>
+            var ElementorProFrontendConfig = {
+                "ajaxurl": "https:\/\/www.infozium.com\/wp-admin\/admin-ajax.php",
+                "nonce": "62ad54ab31",
+                "shareButtonsNetworks": {
+                    "facebook": {
+                        "title": "Facebook",
+                        "has_counter": true
+                    },
+                    "twitter": {
+                        "title": "Twitter"
+                    },
+                    "google": {
+                        "title": "Google+",
+                        "has_counter": true
+                    },
+                    "linkedin": {
+                        "title": "LinkedIn",
+                        "has_counter": true
+                    },
+                    "pinterest": {
+                        "title": "Pinterest",
+                        "has_counter": true
+                    },
+                    "reddit": {
+                        "title": "Reddit",
+                        "has_counter": true
+                    },
+                    "vk": {
+                        "title": "VK",
+                        "has_counter": true
+                    },
+                    "odnoklassniki": {
+                        "title": "OK",
+                        "has_counter": true
+                    },
+                    "tumblr": {
+                        "title": "Tumblr"
+                    },
+                    "delicious": {
+                        "title": "Delicious"
+                    },
+                    "digg": {
+                        "title": "Digg"
+                    },
+                    "skype": {
+                        "title": "Skype"
+                    },
+                    "stumbleupon": {
+                        "title": "StumbleUpon",
+                        "has_counter": true
+                    },
+                    "telegram": {
+                        "title": "Telegram"
+                    },
+                    "pocket": {
+                        "title": "Pocket",
+                        "has_counter": true
+                    },
+                    "xing": {
+                        "title": "XING",
+                        "has_counter": true
+                    },
+                    "whatsapp": {
+                        "title": "WhatsApp"
+                    },
+                    "email": {
+                        "title": "Email"
+                    },
+                    "print": {
+                        "title": "Print"
+                    }
+                },
+                "facebook_sdk": {
+                    "lang": "en_US",
+                    "app_id": ""
+                }
+            };
+        </script>
+        <script src="~/wp-content/cache/minify/3d9a8.js"></script>
+        <script>
+            var elementorFrontendConfig = {
+                "environmentMode": {
+                    "edit": false,
+                    "wpPreview": false
+                },
+                "is_rtl": false,
+                "breakpoints": {
+                    "xs": 0,
+                    "sm": 480,
+                    "md": 768,
+                    "lg": 1025,
+                    "xl": 1440,
+                    "xxl": 1600
+                },
+                "version": "2.8.2",
+                "urls": {
+                    "assets": "https:\/\/www.infozium.com\/wp-content\/plugins\/elementor\/assets\/"
+                },
+                "settings": {
+                    "page": [],
+                    "general": {
+                        "elementor_global_image_lightbox": "yes"
+                    },
+                    "editorPreferences": []
+                },
+                "post": {
+                    "id": 15,
+                    "title": "Home",
+                    "excerpt": ""
+                }
+            };
+        </script>
+        <script src="~/wp-content/cache/minify/9f110.js"></script>
+        <script>
+
+
+            window.addEventListener("load", function () {
+                jQuery(document).on('click dblclick', '#fld_824505_1', function (e) {
+                    jQuery('#fld_824505_1_btn').val(e.type).trigger('change');
+                });
+            });
+        </script>
+
+        <script src="~/content/js/validate.js"></script>
+        <script src="~/content/js/common.js"></script>
+    </environment>
+    <environment exclude="Development">
+        @*<script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-2.2.0.min.js"
+                    asp-fallback-src="~/lib/jquery/dist/jquery.min.js"
+                    asp-fallback-test="window.jQuery"
+                    crossorigin="anonymous"
+                    integrity="sha384-K+ctZQ+LL8q6tP7I94W+qzQsfRV2a+AfHIi9k8z8l9ggpc8X+Ytst4yBo/hH+8Fk">
+            </script>
+            <script src="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.7/bootstrap.min.js"
+                    asp-fallback-src="~/lib/bootstrap/dist/js/bootstrap.min.js"
+                    asp-fallback-test="window.jQuery && window.jQuery.fn && window.jQuery.fn.modal"
+                    crossorigin="anonymous"
+                    integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa">
+            </script>*@
+        <script src="~/content/js/jquery-3.2.1.min.js"></script>
+        <script src="~/content/js/bootstrap.min.js"></script>
+        <script src="~/wp-content/cache/minify/705e0.js"></script>
+        <script src="~/wp-content/cache/minify/9d830.js"></script>
+        <script>
+            var ElementorProFrontendConfig = {
+                "ajaxurl": "https:\/\/www.infozium.com\/wp-admin\/admin-ajax.php",
+                "nonce": "62ad54ab31",
+                "shareButtonsNetworks": {
+                    "facebook": {
+                        "title": "Facebook",
+                        "has_counter": true
+                    },
+                    "twitter": {
+                        "title": "Twitter"
+                    },
+                    "google": {
+                        "title": "Google+",
+                        "has_counter": true
+                    },
+                    "linkedin": {
+                        "title": "LinkedIn",
+                        "has_counter": true
+                    },
+                    "pinterest": {
+                        "title": "Pinterest",
+                        "has_counter": true
+                    },
+                    "reddit": {
+                        "title": "Reddit",
+                        "has_counter": true
+                    },
+                    "vk": {
+                        "title": "VK",
+                        "has_counter": true
+                    },
+                    "odnoklassniki": {
+                        "title": "OK",
+                        "has_counter": true
+                    },
+                    "tumblr": {
+                        "title": "Tumblr"
+                    },
+                    "delicious": {
+                        "title": "Delicious"
+                    },
+                    "digg": {
+                        "title": "Digg"
+                    },
+                    "skype": {
+                        "title": "Skype"
+                    },
+                    "stumbleupon": {
+                        "title": "StumbleUpon",
+                        "has_counter": true
+                    },
+                    "telegram": {
+                        "title": "Telegram"
+                    },
+                    "pocket": {
+                        "title": "Pocket",
+                        "has_counter": true
+                    },
+                    "xing": {
+                        "title": "XING",
+                        "has_counter": true
+                    },
+                    "whatsapp": {
+                        "title": "WhatsApp"
+                    },
+                    "email": {
+                        "title": "Email"
+                    },
+                    "print": {
+                        "title": "Print"
+                    }
+                },
+                "facebook_sdk": {
+                    "lang": "en_US",
+                    "app_id": ""
+                }
+            };
+        </script>
+        <script src="~/wp-content/cache/minify/3d9a8.js"></script>
+        <script>
+            var elementorFrontendConfig = {
+                "environmentMode": {
+                    "edit": false,
+                    "wpPreview": false
+                },
+                "is_rtl": false,
+                "breakpoints": {
+                    "xs": 0,
+                    "sm": 480,
+                    "md": 768,
+                    "lg": 1025,
+                    "xl": 1440,
+                    "xxl": 1600
+                },
+                "version": "2.8.2",
+                "urls": {
+                    "assets": "https:\/\/www.infozium.com\/wp-content\/plugins\/elementor\/assets\/"
+                },
+                "settings": {
+                    "page": [],
+                    "general": {
+                        "elementor_global_image_lightbox": "yes"
+                    },
+                    "editorPreferences": []
+                },
+                "post": {
+                    "id": 15,
+                    "title": "Home",
+                    "excerpt": ""
+                }
+            };
+        </script>
+        <script src="~/wp-content/cache/minify/9f110.js"></script>
+        <script>
+
+
+            window.addEventListener("load", function () {
+                jQuery(document).on('click dblclick', '#fld_824505_1', function (e) {
+                    jQuery('#fld_824505_1_btn').val(e.type).trigger('change');
+                });
+            });
+        </script>
+        <script src="~/content/js/common.js"></script>
+        <script src="~/content/js/validate.js"></script>
+    </environment>
+
+    @RenderSection("Scripts", required: false)
+
+
+
+</body>
+</html>

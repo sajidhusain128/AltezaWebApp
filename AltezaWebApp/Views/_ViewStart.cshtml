@@ -1,0 +1,20 @@
+﻿@using Microsoft.AspNetCore.Http;
+@{
+    //Layout = "_Layout";
+
+    string CurrentName = Convert.ToString(this.ViewContext.RouteData.Values["Controller"]);
+    dynamic Layout;
+    switch (CurrentName)
+    {
+        case "ControlPanel":
+            //Admin layout  
+            Layout = "~/Views/Shared/_CPLayout.cshtml";
+            ViewData["LayoutName"] = Layout;
+
+            break;
+        default:
+            Layout = "~/Views/Shared/_Layout.cshtml";
+            ViewData["LayoutName"] = Layout;
+            break;
+    }
+}
